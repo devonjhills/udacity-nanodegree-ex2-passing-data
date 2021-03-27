@@ -10,7 +10,7 @@ class MovieCardsList extends Component {
       <MovieCard
         key={id}
         users={users}
-        usersWhoLikedMovie={usersByMovie[id]}
+        userFavorited={usersByMovie[id]}
         movie={movies[id]}
       />
     ));
